@@ -2,6 +2,33 @@
 
 Este documento apresenta o backlog priorizado do projeto, dividido ao longo das 6 Sprints do ciclo de vida.
 
+### **Histórias de Usuario:**
+
+### História de Usuário 1 — Identificação de áreas de risco
+
+**Como** gestor municipal de trânsito,
+**quero** visualizar em um mapa as áreas urbanas classificadas de acordo com o risco previsto de acidentes,
+**para** identificar antecipadamente regiões com maior probabilidade de ocorrência e direcionar minha atenção aos locais mais críticos.
+
+### História de Usuário 2 — Análise histórica e temporal
+
+**Como** analista de trânsito,
+**quero** consultar o risco previsto de acidentes utilizando filtros por região e período, comparando essas informações com os registros históricos disponíveis,
+**para** complementar a análise baseada em ocorrências passadas e identificar padrões espaciais e temporais de risco.
+
+### História de Usuário 3 — Priorização e distribuição de recursos
+
+**Como** gestor municipal de trânsito,
+**quero** visualizar e ordenar as regiões de acordo com seus níveis previstos de risco,
+**para** priorizar os locais que necessitam de maior atenção e direcionar de forma mais eficiente os recursos públicos disponíveis.
+
+### História de Usuário 4 — Apoio à tomada de decisão
+
+**Como** engenheiro ou responsável pelo planejamento de tráfego,
+**quero** consultar os níveis previstos de risco e as informações associadas às diferentes áreas urbanas,
+**para** apoiar decisões relacionadas a possíveis ações de fiscalização, sinalização e melhorias na infraestrutura viária.
+
+
 ---
 
 ## Sprint 0: Estruturação e Iniciação (Concluído)
