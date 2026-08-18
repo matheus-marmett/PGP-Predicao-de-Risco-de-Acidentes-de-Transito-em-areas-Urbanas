@@ -1,4 +1,6 @@
-# PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas
+#Predição de Risco de Acidentes de Trânsito em Áreas Urbanas
+**Disciplina:** Planejamento e Gestão de Projetos (PGP) - Ciência da Computação  
+**Integrantes:** Matheus de Anhaya Marmett & Guilherme Scortegagna Ribeiro
 
 Projeto proposto pelo docente Fabricio Herpich, responsável por ministrar a disciplina de Planejamento e Gestão de Projetos no curso de graduação em Ciência da Computação pela Universidade Federal da Fronteira Sul (UFFS), Campus Chapecó/SC.
 
@@ -8,3 +10,10 @@ Objetivos do projeto:
  - Conduzir o ciclo de vida de um projeto de ML, de ponta a ponta.
  - Entregar uma solução tecnológica completa e publicada.
  - Comunicar cientificamente os resultados por meio de um artigo.
+
+---
+
+     ##  Entregáveis da Sprint 0
+- **Project Model Canvas (PMC):** [`documentacao/canvas.md`](documentacao/canvas.md)
+- **Product Backlog:** [`documentacao/backlog.md`](documentacao/backlog.md)
+- **Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
