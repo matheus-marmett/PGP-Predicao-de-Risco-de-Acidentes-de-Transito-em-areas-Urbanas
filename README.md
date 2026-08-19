@@ -20,5 +20,5 @@ Objetivos do projeto:
 
 -   ##  Entregáveis da Sprint 1
 - **Product Backlog priorizado (Histórias de Usuário):** [`documentacao/backlog.md`](documentacao/backlog.md)
-- **Notebook de Exploração** [Acessar Google Colab]([https://github.com/users/matheus-marmett/projects/1](https://colab.research.google.com/drive/1rqLzvzHPVH2hqNjvK_Y4RLOM6Did7ZQR?usp=sharing))
+- **Notebook de Exploração** [Acessar Google Colab](https://colab.research.google.com/drive/1rqLzvzHPVH2hqNjvK_Y4RLOM6Did7ZQR?usp=sharing)
 
