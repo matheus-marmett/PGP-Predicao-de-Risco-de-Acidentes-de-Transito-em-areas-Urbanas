@@ -17,3 +17,7 @@ Objetivos do projeto:
 - **Project Model Canvas (PMC):** [`documentacao/canvas.md`](documentacao/canvas.md)
 - **Product Backlog:** [`documentacao/backlog.md`](documentacao/backlog.md)
 - **Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
+
+-   ##  Entregáveis da Sprint 1
+- **Product Backlog priorizado (Histórias de Usuário):** [`documentacao/backlog.md`](documentacao/backlog.md)
+- **Notebook de Exploração (Google Colab)** [https://colab.research.google.com/drive/1rqLzvzHPVH2hqNjvK_Y4RLOM6Did7ZQR?usp=sharing]
