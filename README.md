@@ -41,3 +41,4 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 * **Notebook de Pipeline, Modelagem e Avaliação (H3 + ML + LIME):** [Acessar Google Colab/Notebook](https://colab.research.google.com/drive/14jam3dvSFaVjhnrpr-RLYCx8IZuLfFgT?usp=sharing)
 * **Atualizações no Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
 * **Atualizações do Artigo Científico:** [`documentacao/artigo_cientifico`](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing)
+* **Modelo Treinado Exportado (`.joblib`):** [Acessar Pasta Models](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/tree/main/models)
