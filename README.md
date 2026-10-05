@@ -42,3 +42,28 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 * **Atualizações no Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
 * **Atualizações do Artigo Científico:** [`documentacao/artigo_cientifico`](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing)
 * **Modelo Treinado Exportado (`.joblib`):** [Acessar Pasta Models](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/tree/main/models)
+
+
+### Entregáveis da Sprint 3
+
+* **Aplicação Web (Streamlit Cloud - MVP público):** [Acessar Solução Web](https://pgp-predicao-acidentes-transito.streamlit.app/)
+* **Código Fonte da Aplicação:** [`codigo_fonte/visualizacao/app.py`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/blob/main/codigo_fonte/visualizacao/app.py)
+* **Especificação de Dependências:** [`requirements.txt`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/blob/main/requirements.txt)
+* **Quadro Kanban Final:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
+
+---
+
+## 🛠️ Como Executar a Aplicação Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas.git](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas.git)
+   cd PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas
+
+2. Instale as dependências:
+
+    pip install -r requirements.txt
+
+3. Execute o servidor Streamlit:
+
+    streamlit run codigo_fonte/visualizacao/app.py
