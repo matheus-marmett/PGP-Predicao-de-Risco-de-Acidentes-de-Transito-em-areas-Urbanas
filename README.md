@@ -19,7 +19,8 @@ Objetivos do projeto:
 
 O artigo científico completo sobre a predição espaço-temporal de hotspots de acidentes de trânsito em Belo Horizonte utilizando indexação H3, modelos de Machine Learning e a metodologia DSRM está disponível em:
 
-* **Artigo Científico (PDF):** [`documentacao/artigo_cientifico`](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing)
+* **Artigo Científico (Word):** [`documentacao/artigo/artigo_hotspots_bh.docx`](documentacao/artigo/artigo_hotspots_bh.docx)
+* **Versão editável (Google Docs):** [Acessar documento](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing)
 
 ---
 
