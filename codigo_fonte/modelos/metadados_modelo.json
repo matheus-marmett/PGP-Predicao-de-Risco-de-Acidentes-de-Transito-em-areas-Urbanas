@@ -1,0 +1,87 @@
+{
+  "modelo": "Regressão Logística",
+  "features": [
+    "acid_lag1",
+    "acid_media_3m",
+    "acid_media_6m",
+    "acid_media_12m",
+    "acid_tendencia",
+    "hotspot_lag1",
+    "hotspot_freq_12m",
+    "obitos_12m",
+    "envolvidos_por_acid_12m",
+    "prop_pico_12m",
+    "prop_noturnas_12m",
+    "prop_fds_12m",
+    "vizinhos_media_3m",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "resolucao_h3": 8,
+  "percentil_hotspot": 0.9,
+  "limiar_decisao": 0.5,
+  "periodo_dados": [
+    "2021-06",
+    "2025-12"
+  ],
+  "inicio_teste": "2025-01",
+  "mes_previsto": "2026-01",
+  "n_hexagonos": 462,
+  "n_acidentes": 350745,
+  "metricas_teste": [
+    {
+      "Modelo": "Heurística: hotspot no mês anterior",
+      "Acurácia": 0.9551,
+      "Precisão": 0.7839,
+      "Recall": 0.7879,
+      "F1-Score": 0.7859,
+      "ROC-AUC": 0.8813,
+      "PR-AUC": 0.6398
+    },
+    {
+      "Modelo": "Heurística: média 3 meses ≥ P90 anterior",
+      "Acurácia": 0.96,
+      "Precisão": 0.8129,
+      "Recall": 0.8017,
+      "F1-Score": 0.8073,
+      "ROC-AUC": 0.9852,
+      "PR-AUC": 0.898
+    },
+    {
+      "Modelo": "Regressão Logística",
+      "Acurácia": 0.9224,
+      "Precisão": 0.5773,
+      "Recall": 0.9655,
+      "F1-Score": 0.7226,
+      "ROC-AUC": 0.987,
+      "PR-AUC": 0.9106
+    },
+    {
+      "Modelo": "Random Forest",
+      "Acurácia": 0.904,
+      "Precisão": 0.522,
+      "Recall": 0.981,
+      "F1-Score": 0.6814,
+      "ROC-AUC": 0.9867,
+      "PR-AUC": 0.9077
+    },
+    {
+      "Modelo": "XGBoost",
+      "Acurácia": 0.9174,
+      "Precisão": 0.5615,
+      "Recall": 0.9603,
+      "F1-Score": 0.7087,
+      "ROC-AUC": 0.9841,
+      "PR-AUC": 0.889
+    },
+    {
+      "Modelo": "LightGBM",
+      "Acurácia": 0.9122,
+      "Precisão": 0.5455,
+      "Recall": 0.9603,
+      "F1-Score": 0.6958,
+      "ROC-AUC": 0.9837,
+      "PR-AUC": 0.889
+    }
+  ]
+}

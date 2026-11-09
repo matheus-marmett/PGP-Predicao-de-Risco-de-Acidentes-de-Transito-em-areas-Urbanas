@@ -1,10 +1,7 @@
 streamlit
 joblib
-lightgbm
 scikit-learn
+lightgbm
 pandas
 numpy
-h3
 pydeck
-folium
-streamlit-folium
