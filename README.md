@@ -73,7 +73,7 @@ Lista completa: [Releases do repositório](https://github.com/matheus-marmett/PG
 
 ### Entregáveis da Sprint 4
 
-* **Notebook de Modelagem Preditiva (H3 + ML + LIME):** [`notebooks/03_modelagem_preditiva.ipynb`](notebooks/03_modelagem_preditiva.ipynb). Pipeline refeito sem vazamento de dados: recorte pelo limite oficial de Belo Horizonte, alvo P90 recalculado a cada mês, 15 atributos calculados só com meses anteriores, divisão temporal (treino até 2024, teste em 2025), comparação com heurísticas de referência, importância por permutação e LIME.
+* **Notebook de Modelagem Preditiva (H3 + ML + LIME):** [`notebooks/03_modelagem_preditiva.ipynb`](notebooks/03_modelagem_preditiva.ipynb) · [Google Colab](https://colab.research.google.com/drive/1Gw0L65qX25j-XYbZM3rCbA10mPib-Nxy?usp=sharing) Pipeline refeito sem vazamento de dados: recorte pelo limite oficial de Belo Horizonte, alvo P90 recalculado a cada mês, 15 atributos calculados só com meses anteriores, divisão temporal (treino até 2024, teste em 2025), comparação com heurísticas de referência, importância por permutação e LIME.
 * **Modelo atualizado e metadados:** [`codigo_fonte/modelos/`](codigo_fonte/modelos/). Regressão Logística, melhor PR-AUC no teste (0,9106).
 * **MVP atualizado (Streamlit Cloud):** [Acessar Solução Web](https://pgp-predicao-acidentes-transito.streamlit.app/). Mapa de risco dos 462 hexágonos de BH, filtros por risco e bairro, ranking exportável, histórico mensal e fatores da previsão de cada hexágono.
 * **Release (intermediária):** [`v0.4`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.4)
