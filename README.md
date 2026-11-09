@@ -24,6 +24,22 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 
 ---
 
+## 📦 Releases
+
+Cada sprint entregue tem uma release no GitHub, que aponta para o estado do repositório ao final da sprint. As releases v0.0 a v0.3 foram criadas retroativamente, a partir do último commit de cada sprint.
+
+| Versão | Sprint | Conteúdo principal |
+| --- | --- | --- |
+| [`v0.0`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.0) | Sprint 0 – Estruturação e iniciação | Project Model Canvas, backlog inicial e estrutura do repositório |
+| [`v0.1`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.1) | Sprint 1 – Validação dos dados e exploração | Backlog priorizado e exploração dos dados |
+| [`v0.2`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.2) | Sprint 2 – Engenharia de dados e modelo baseline | Primeiro modelo exportado (substituído na v0.4) |
+| [`v0.3`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.3) | Sprint 3 – Desenvolvimento e publicação do MVP | Primeira versão do app em Streamlit (reescrito na v0.4) |
+| [`v0.4`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.4) | Sprint 4 – Validação, explicabilidade e release intermediária | Modelo sem vazamento de dados, app atualizado e artigo revisado (versão atual) |
+
+Lista completa: [Releases do repositório](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases)
+
+---
+
 ## 🚀 Entregáveis do Projeto
 
 ### Entregáveis da Sprint 0
@@ -31,11 +47,13 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 * **Project Model Canvas (PMC):** [`documentacao/canvas.md`](documentacao/canvas.md)
 * **Product Backlog:** [`documentacao/backlog.md`](documentacao/backlog.md)
 * **Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
+* **Release:** [`v0.0`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.0)
 
 ### Entregáveis da Sprint 1
 
 * **Product Backlog priorizado (Histórias de Usuário):** [`documentacao/backlog.md`](documentacao/backlog.md)
 * **Notebook de Exploração:** [`notebooks/01_exploracao_dados.ipynb`](notebooks/01_exploracao_dados.ipynb) · [Google Colab](https://colab.research.google.com/drive/1rqLzvzHPVH2hqNjvK_Y4RLOM6Did7ZQR?usp=sharing)
+* **Release:** [`v0.1`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.1)
 
 ### Entregáveis da Sprint 2
 
@@ -43,7 +61,7 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 * **Atualizações no Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
 * **Atualizações do Artigo Científico:** [Google Docs](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing)
 * **Modelo Treinado Exportado (`.joblib`):** [`codigo_fonte/modelos/`](codigo_fonte/modelos/)
-
+* **Release:** [`v0.2`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.2)
 
 ### Entregáveis da Sprint 3
 
@@ -51,13 +69,14 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 * **Código Fonte da Aplicação:** [`codigo_fonte/visualizacao/app.py`](codigo_fonte/visualizacao/app.py)
 * **Especificação de Dependências:** [`requirements.txt`](requirements.txt)
 * **Quadro Kanban Final:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
+* **Release:** [`v0.3`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.3)
 
 ### Entregáveis da Sprint 4
 
 * **Notebook de Modelagem Preditiva (H3 + ML + LIME):** [`notebooks/03_modelagem_preditiva.ipynb`](notebooks/03_modelagem_preditiva.ipynb). Pipeline refeito sem vazamento de dados: recorte pelo limite oficial de Belo Horizonte, alvo P90 recalculado a cada mês, 15 atributos calculados só com meses anteriores, divisão temporal (treino até 2024, teste em 2025), comparação com heurísticas de referência, importância por permutação e LIME.
 * **Modelo atualizado e metadados:** [`codigo_fonte/modelos/`](codigo_fonte/modelos/). Regressão Logística, melhor PR-AUC no teste (0,9106).
 * **MVP atualizado (Streamlit Cloud):** [Acessar Solução Web](https://pgp-predicao-acidentes-transito.streamlit.app/). Mapa de risco dos 462 hexágonos de BH, filtros por risco e bairro, ranking exportável, histórico mensal e fatores da previsão de cada hexágono.
-* **Release intermediária:** [`v0.4`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.4)
+* **Release (intermediária):** [`v0.4`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.4)
 * **Artigo Científico atualizado (Resultados, Discussão e Limitações):** [Google Docs](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing) · [`documentacao/artigo/artigo_hotspots_bh.docx`](documentacao/artigo/artigo_hotspots_bh.docx)
 * **Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
 
