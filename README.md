@@ -41,7 +41,7 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 
 * **Notebook de Pipeline e Modelagem (H3 + ML):** [`notebooks/02_feature_engineering_e_treinamento.ipynb`](notebooks/02_feature_engineering_e_treinamento.ipynb) · [Google Colab](https://colab.research.google.com/drive/14jam3dvSFaVjhnrpr-RLYCx8IZuLfFgT?usp=sharing)
 * **Atualizações no Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
-* **Atualizações do Artigo Científico:** [`documentacao/artigo_cientifico`](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing)
+* **Atualizações do Artigo Científico:** [Google Docs](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing)
 * **Modelo Treinado Exportado (`.joblib`):** [`codigo_fonte/modelos/`](codigo_fonte/modelos/)
 
 
@@ -51,6 +51,15 @@ O artigo científico completo sobre a predição espaço-temporal de hotspots de
 * **Código Fonte da Aplicação:** [`codigo_fonte/visualizacao/app.py`](codigo_fonte/visualizacao/app.py)
 * **Especificação de Dependências:** [`requirements.txt`](requirements.txt)
 * **Quadro Kanban Final:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
+
+### Entregáveis da Sprint 4
+
+* **Notebook de Modelagem Preditiva (H3 + ML + LIME):** [`notebooks/03_modelagem_preditiva.ipynb`](notebooks/03_modelagem_preditiva.ipynb). Pipeline refeito sem vazamento de dados: recorte pelo limite oficial de Belo Horizonte, alvo P90 recalculado a cada mês, 15 atributos calculados só com meses anteriores, divisão temporal (treino até 2024, teste em 2025), comparação com heurísticas de referência, importância por permutação e LIME.
+* **Modelo atualizado e metadados:** [`codigo_fonte/modelos/`](codigo_fonte/modelos/). Regressão Logística, melhor PR-AUC no teste (0,9106).
+* **MVP atualizado (Streamlit Cloud):** [Acessar Solução Web](https://pgp-predicao-acidentes-transito.streamlit.app/). Mapa de risco dos 462 hexágonos de BH, filtros por risco e bairro, ranking exportável, histórico mensal e fatores da previsão de cada hexágono.
+* **Release intermediária:** [`v0.4`](https://github.com/matheus-marmett/PGP-Predicao-de-Risco-de-Acidentes-de-Transito-em-areas-Urbanas/releases/tag/v0.4)
+* **Artigo Científico atualizado (Resultados, Discussão e Limitações):** [Google Docs](https://docs.google.com/document/d/1cSGHn5iTDPIglaVhDRAHO9t2_PpPaSP_CavH2OUc2HY/edit?usp=sharing) · [`documentacao/artigo/artigo_hotspots_bh.docx`](documentacao/artigo/artigo_hotspots_bh.docx)
+* **Quadro Kanban:** [Acessar GitHub Projects](https://github.com/users/matheus-marmett/projects/1)
 
 ---
 
